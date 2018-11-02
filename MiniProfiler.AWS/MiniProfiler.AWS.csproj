@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>library</OutputType>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Title>MiniProfiler.AWS</Title>
+        <Authors>Norm Johanson</Authors>
+        <Version>0.8.0</Version>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <Description>Unofficial package which enables AWS service calls to be included in MiniProfiler traces.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AWSSDK.Core" Version="3.3.29.3" />
+      <PackageReference Include="MiniProfiler.Shared" Version="4.0.138" />
+    </ItemGroup>
+
+</Project>

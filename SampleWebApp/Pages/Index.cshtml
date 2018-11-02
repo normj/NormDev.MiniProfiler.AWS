@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h2>S3 Buckets</h2>
+<ul>
+    @foreach (var bucket in this.Model.BucketNames)
+    {
+        <li>@bucket</li>
+    }
+</ul>
+
+<h2>DynamoDB Tables</h2>
+<ul>
+    @foreach (var bucket in this.Model.TableNames)
+    {
+        <li>@bucket</li>
+    }
+</ul>
