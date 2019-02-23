@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MiniProfiler.AWS\MiniProfiler.AWS.csproj" />
+      <ProjectReference Include="..\NormDev.MiniProfiler.AWS\NormDev.MiniProfiler.AWS.csproj" />
     </ItemGroup>
 
 </Project>

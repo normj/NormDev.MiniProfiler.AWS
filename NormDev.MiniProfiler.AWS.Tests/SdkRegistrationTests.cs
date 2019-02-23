@@ -7,7 +7,7 @@ using Xunit;
 using Amazon;
 using Amazon.S3;
 
-namespace MiniProfiler.AWS.Tests
+namespace NormDev.MiniProfiler.AWS.Tests
 {
     using MiniProfiler = StackExchange.Profiling.MiniProfiler;
     

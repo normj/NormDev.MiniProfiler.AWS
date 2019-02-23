@@ -1,3 +1,4 @@
+
 // ReSharper disable once CheckNamespace
 namespace Microsoft.Extensions.DependencyInjection
 {
@@ -11,7 +12,7 @@ namespace Microsoft.Extensions.DependencyInjection
         /// <returns></returns>
         public static IMiniProfilerBuilder AddAwsSdk(this IMiniProfilerBuilder builder)
         {
-            MiniProfiler.AWS.Register.RegisterWithSdk();
+            NormDev.MiniProfiler.AWS.Register.RegisterWithSdk();
             return builder;
         }
     }

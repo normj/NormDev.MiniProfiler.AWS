@@ -3,7 +3,7 @@
     <PropertyGroup>
         <OutputType>library</OutputType>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <Title>MiniProfiler.AWS</Title>
+        <Title>NormDev.MiniProfiler.AWS</Title>
         <Authors>Norm Johanson</Authors>
         <Version>0.8.0</Version>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>

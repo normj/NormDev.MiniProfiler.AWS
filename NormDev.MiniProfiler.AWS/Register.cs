@@ -2,16 +2,16 @@ using System;
 using Amazon.Runtime;
 using Amazon.Runtime.Internal;
 
-using MiniProfiler.AWS.Internal;
+using NormDev.MiniProfiler.AWS.Internal;
 
-namespace MiniProfiler.AWS
+namespace NormDev.MiniProfiler.AWS
 {
     /// <summary>
     /// This class handles registering MiniProfiler into the AWS SDK for .NET pipeline. 
     /// </summary>
     public class Register : IRuntimePipelineCustomizer
     {
-        private const string CustomizerName = "MiniProfiler.AWS Registration";
+        private const string CustomizerName = "NormDev.MiniProfiler.AWS Registration";
         private Register()
         {
             

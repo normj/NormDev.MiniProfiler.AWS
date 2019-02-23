@@ -6,7 +6,7 @@ using StackExchange.Profiling;
 using StackExchange.Profiling.Helpers;
 
 
-namespace MiniProfiler.AWS.Internal
+namespace NormDev.MiniProfiler.AWS.Internal
 {
     /// <summary>
     /// The design AWS SDK for .NET uses a pipeline made of a series of pipeline handlers to handle each stage of
@@ -39,7 +39,14 @@ namespace MiniProfiler.AWS.Internal
             }
 
             var profiler = StackExchange.Profiling.MiniProfiler.Current;
-            using (var timing = profiler.Step(stepName))
+            if (profiler != null)
+            {
+                using (var timing = profiler.Step(stepName))
+                {
+                    return await base.InvokeAsync<T>(executionContext).ConfigureAwait(false);
+                }
+            }
+            else
             {
                 return await base.InvokeAsync<T>(executionContext).ConfigureAwait(false);
             }

@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProfiler.AWS", "MiniProfiler.AWS\MiniProfiler.AWS.csproj", "{72DFB2F6-AB0E-4FC5-81CE-4F242A99143C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormDev.MiniProfiler.AWS", "NormDev.MiniProfiler.AWS\NormDev.MiniProfiler.AWS.csproj", "{72DFB2F6-AB0E-4FC5-81CE-4F242A99143C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApp", "SampleWebApp\SampleWebApp.csproj", "{2FE46816-D70E-42CE-AB73-25841109A203}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProfiler.AWS.Tests", "MiniProfiler.AWS.Tests\MiniProfiler.AWS.Tests.csproj", "{4B2C3512-C384-49EA-A064-1D16F4751C70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormDev.MiniProfiler.AWS.Tests", "NormDev.MiniProfiler.AWS.Tests\NormDev.MiniProfiler.AWS.Tests.csproj", "{4B2C3512-C384-49EA-A064-1D16F4751C70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
