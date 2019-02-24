@@ -1,0 +1,12 @@
+version: 0.2
+
+env:
+phases:
+  build:
+    commands:
+      - dotnet build ./NormDev.MiniProfiler.AWS.sln -c Release
+      - dotnet test .NormDev.MiniProfiler.AWS.Tests\
+artifacts:
+  files:
+    - ./NormDev.MiniProfiler.AWS/bin/Release/NormDev.MiniProfiler.AWS.*.nupkg
+  discard-paths: yes
