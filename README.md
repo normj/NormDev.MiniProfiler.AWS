@@ -1,6 +1,8 @@
 # NormDev.MiniProfiler.AWS
 
-An unofficial package to add AWS service calls to [MiniProfiler](https://github.com/MiniProfiler/dotnet) traces. **Do not report issues with this library on AWS repositories.**
+An unofficial package to add AWS service calls to [MiniProfiler](https://github.com/MiniProfiler/dotnet) traces. 
+
+Although I work on the AWS .NET team this is not an AWS project. This is a personal side project so **Do not report issues with this library on AWS repositories.**
 
 ![alt text](./Docs/example-screenshot.png)
 
