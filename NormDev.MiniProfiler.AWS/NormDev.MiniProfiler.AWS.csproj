@@ -5,6 +5,7 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <Title>NormDev.MiniProfiler.AWS</Title>
         <Authors>Norm Johanson</Authors>
+        <PackageLicenseUrl>https://github.com/normj/NormDev.MiniProfiler.AWS/blob/master/LICENSE</PackageLicenseUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <Version>0.8.0</Version>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
