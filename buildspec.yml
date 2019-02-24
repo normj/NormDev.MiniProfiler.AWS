@@ -4,7 +4,7 @@ phases:
   build:
     commands:
       - dotnet build ./NormDev.MiniProfiler.AWS.sln -c Release
-      - dotnet test .NormDev.MiniProfiler.AWS.Tests\
+      - dotnet test ./NormDev.MiniProfiler.AWS.Tests/NormDev.MiniProfiler.AWS.Tests.csproj
 artifacts:
   files:
     - ./NormDev.MiniProfiler.AWS/bin/Release/NormDev.MiniProfiler.AWS.*.nupkg
