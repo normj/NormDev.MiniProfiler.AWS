@@ -7,7 +7,7 @@
         <Authors>Norm Johanson</Authors>
         <PackageLicenseUrl>https://github.com/normj/NormDev.MiniProfiler.AWS/blob/master/LICENSE</PackageLicenseUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
-        <Version>0.8.0</Version>
+        <Version>0.8.1</Version>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
         <Description>Unofficial package which enables AWS service calls to be included in MiniProfiler traces.</Description>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
