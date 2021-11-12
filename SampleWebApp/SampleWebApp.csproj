@@ -1,16 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp2.1</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>		
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.14.12" />
-        <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.6" />
-        <PackageReference Include="AWSSDK.S3" Version="3.3.26.5" />
-        <PackageReference Include="Microsoft.AspNetCore.App" />
-        <PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.0.138" />
-    </ItemGroup>
+        <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.0.97" />
+        <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.7.1" />
+        <PackageReference Include="AWSSDK.S3" Version="3.7.4.3" />
+		<PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.2.22" />
+	</ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\NormDev.MiniProfiler.AWS\NormDev.MiniProfiler.AWS.csproj" />
