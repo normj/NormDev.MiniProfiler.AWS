@@ -6,7 +6,7 @@
         <Title>NormDev.MiniProfiler.AWS</Title>
         <Authors>Norm Johanson</Authors>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
-        <Version>0.8.2</Version>
+        <Version>0.8.3</Version>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
         <Description>Unofficial package which enables AWS service calls to be included in MiniProfiler traces.</Description>

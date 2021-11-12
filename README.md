@@ -4,7 +4,7 @@ An unofficial package to add AWS service calls to [MiniProfiler](https://github.
 
 Although I work on the AWS .NET team this is not an AWS project. This is a personal side project so **Do not report issues with this library on AWS repositories.**
 
-![Trace Viewer](./Docs/example-screenshot.png)
+![Trace Viewer](https://raw.githubusercontent.com/normj/NormDev.MiniProfiler.AWS/main/Docs/example-screenshot.png)
 
 
 ## Enabling for ASP.NET Core applications
