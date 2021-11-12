@@ -5,15 +5,19 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <Title>NormDev.MiniProfiler.AWS</Title>
         <Authors>Norm Johanson</Authors>
-        <PackageLicenseUrl>https://github.com/normj/NormDev.MiniProfiler.AWS/blob/master/LICENSE</PackageLicenseUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
-        <Version>0.8.1</Version>
+        <Version>0.8.2</Version>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
         <Description>Unofficial package which enables AWS service calls to be included in MiniProfiler traces.</Description>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <RepositoryUrl>https://github.com/normj/NormDev.MiniProfiler.AWS</RepositoryUrl>
     </PropertyGroup>
 
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+	
     <ItemGroup>
       <None Include="..\LICENSE" Pack="true" PackagePath=""/>
     </ItemGroup>

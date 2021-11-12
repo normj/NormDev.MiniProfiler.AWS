@@ -1,10 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormDev.MiniProfiler.AWS", "NormDev.MiniProfiler.AWS\NormDev.MiniProfiler.AWS.csproj", "{72DFB2F6-AB0E-4FC5-81CE-4F242A99143C}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NormDev.MiniProfiler.AWS", "NormDev.MiniProfiler.AWS\NormDev.MiniProfiler.AWS.csproj", "{72DFB2F6-AB0E-4FC5-81CE-4F242A99143C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApp", "SampleWebApp\SampleWebApp.csproj", "{2FE46816-D70E-42CE-AB73-25841109A203}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleWebApp", "SampleWebApp\SampleWebApp.csproj", "{2FE46816-D70E-42CE-AB73-25841109A203}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormDev.MiniProfiler.AWS.Tests", "NormDev.MiniProfiler.AWS.Tests\NormDev.MiniProfiler.AWS.Tests.csproj", "{4B2C3512-C384-49EA-A064-1D16F4751C70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NormDev.MiniProfiler.AWS.Tests", "NormDev.MiniProfiler.AWS.Tests\NormDev.MiniProfiler.AWS.Tests.csproj", "{4B2C3512-C384-49EA-A064-1D16F4751C70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +27,11 @@ Global
 		{4B2C3512-C384-49EA-A064-1D16F4751C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B2C3512-C384-49EA-A064-1D16F4751C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B2C3512-C384-49EA-A064-1D16F4751C70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84F83321-2824-443C-8B73-E1725A8C5951}
 	EndGlobalSection
 EndGlobal
